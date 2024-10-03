@@ -362,6 +362,11 @@ h2 {
   text-align: center;
   font-size: 30px;
 }
+@media (max-width: 1023px) {
+  .preloader {
+    left: 30%;
+  }
+}
 
 .card__content {
   position: relative;
@@ -736,4 +741,4 @@ h2 {
   pointer-events: all;
 }
 
-/*# sourceMappingURL=index2.css.map */
+/*# sourceMappingURL=index.css.map */
