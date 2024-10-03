@@ -19,7 +19,7 @@ const SinglePage = () => {
 
     const {register, handleSubmit, formState: {errors}} = useForm({
         mode: "onChange",
-    });
+    })
 
     const submit = data => {
         console.log(data);
