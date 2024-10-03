@@ -17,7 +17,9 @@ const SinglePage = () => {
     const [modal, setModal] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
 
-    const {register, handleSubmit, formState: {errors}} = useForm();
+    const {register, handleSubmit, formState: {errors}} = useForm({
+        mode: "onChange",
+    });
 
     const submit = data => {
         console.log(data);
